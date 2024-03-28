@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 25, 0.9), rgba(0, 0, 25, 0.9)),
+    url(https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 120px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#focus {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  z-index: 1;
+  background: url("https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 50%;
+  top: calc(50% - 140px);
+  left: calc(50% - 140px);
+}
